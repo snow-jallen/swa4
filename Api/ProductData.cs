@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Data;
 
 namespace Api;
 
@@ -21,21 +21,21 @@ public class ProductData : IProductData
             new Product
             {
                 Id = 10,
-                Name = "Strawberries",
+                Name = "Strawberries (BETA)",
                 Description = "16oz package of fresh organic strawberries",
                 Quantity = 1
             },
             new Product
             {
                 Id = 20,
-                Name = "Sliced bread",
+                Name = "Sliced bread (BETA)",
                 Description = "Loaf of fresh sliced wheat bread",
                 Quantity = 1
             },
             new Product
             {
                 Id = 30,
-                Name = "Apples",
+                Name = "Apples (BETA)",
                 Description = "Bag of 7 fresh McIntosh apples",
                 Quantity = 1
             }
